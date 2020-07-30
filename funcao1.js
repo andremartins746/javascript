@@ -25,3 +25,9 @@ function dividir(){
     return n1+n2 /2
 }
 console.log(dividir())
+
+function soma=(a,b){
+   const r= a+b
+   return r
+{
+  console.log(soma (3,5))//linha de teste
