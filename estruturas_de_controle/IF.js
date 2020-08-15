@@ -1,4 +1,4 @@
-//ir em js
+//if em js
 
 function soBoaNoticia(nota){
     if (nota >=7) {
