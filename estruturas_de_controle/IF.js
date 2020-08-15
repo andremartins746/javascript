@@ -1,3 +1,5 @@
+//ir em js
+
 function soBoaNoticia(nota){
     if (nota >=7) {
         console.log('aprovado com '.concat(nota))
