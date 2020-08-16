@@ -13,5 +13,5 @@ console.log(valores.pop())// o pop serve para retirar do array o seu ultimo valo
 delete valores[0] //delete serve para deletar um valordo array.
 console.log(valores)
 
-console.log(typeof valores)// em javascript o array é do tipo object
+console.log(typeof valores)// em javascript o array é do tipo object. . . 
 let ERRO
