@@ -2,6 +2,7 @@
 
 const [a,b,c,d]=[3, 5, 1, 15]
 
+// exenplos de aritimetricos
 const soma = a + b + c + d 
 const subtracao = d - b
 const multiplicacao = a * b
