@@ -15,3 +15,5 @@ console.log(valores)
 
 console.log(typeof valores)// em javascript o array é do tipo object. . . 
 let ERRO
+
+//tambem temos o .push
