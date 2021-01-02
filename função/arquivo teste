@@ -1,0 +1,2 @@
+const saudacao = 'bom dia'
+console.log(saudacao)
