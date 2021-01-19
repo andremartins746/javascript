@@ -1,3 +1,3 @@
 const nomes = ['andré', 'odair', 'luana', 'monique', 'davi']
 
-foreach((elemento) => console.log(elemento))
+nomes.foreach((elemento) => console.log(elemento))
