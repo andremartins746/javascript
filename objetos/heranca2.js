@@ -22,13 +22,13 @@ const carro  = {
 
 const ferrari = {
     modelo: 'f40',
-    velMax: 324 //shadowing, sombreaento!
+    velMax: 324 // shadowing == sombreaento!
 }
 
 const volvo = {
     modelo: 'v40',
     status() {
-        return `${this.modelo}: ${super.status()}` // o super tem a mesma funcionabilidade do .this, mas é para as funções
+        return `${this.modelo}: ${super.status()}` // o super tem a mesma funcionabilidade do .this, mas é para as funções/metodos
     }
 }
 
