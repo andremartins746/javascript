@@ -1,6 +1,6 @@
 function rand([min=0,max=1000]){
     if(min > max) [min , max] = [max , min]//aqui eu estou invertendo o lugar de min para max.
-    const valor =Math.random() * (max-min) + min
+    const valor = Math.random() * (max-min) + min
     return Math.floor(valor)
 }
 
