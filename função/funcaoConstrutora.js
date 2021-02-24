@@ -1,5 +1,5 @@
 function carro(velocidadeMaxima = 200, delta = 5){
-    //atribultu primvado
+    //atribulto privado
     let velocidadeAtual = 0
 
     //metodo publico
