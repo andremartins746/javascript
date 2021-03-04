@@ -1,0 +1,2 @@
+const saudacoes = require('./passandoParametros')('ana', 'lucas', 'joão') // esses parenteses no final serve para passar os parametros da função que esta sendo chamada pelo require
+console.log(saudacoes)
