@@ -1,5 +1,5 @@
 const url = 'http://files.cod3r.com.br/curso-js/funcionarios.json'
-const axios = require('axios')
+const axios = require('axios')// usando o axios 
 
 
 const chineses = f => f.pais === 'China'
