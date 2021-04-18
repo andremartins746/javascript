@@ -12,7 +12,7 @@ for(let assunto of assuntoEcma){ // o for of percorre os valores
     console.log(assunto)
 }
 
-const assuntosMap = new Map([
+const assuntosMap = new Map([ // o for of percorre os valores
     ['map', {abordado: true}],
     ['set', {abordado: true}],
     ['promise', { abordado: false}]
