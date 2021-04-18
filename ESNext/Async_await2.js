@@ -13,7 +13,7 @@ function esperarPor(tempo = 2000) {
     .then(() => console.log('execultando promise 3...'))
 
 */
-
+//Está função retorna uma promise com um valor para teste
 function retornaValor() {
     return new Promise(resolve => resolve(10)) 
 }
