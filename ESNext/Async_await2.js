@@ -34,6 +34,7 @@ async function execultar() {
     return valor + 3 
 }
 
+//melhor ferramenta que já inventaram foi o async await ;)
 
 async function execultarDeVerdade() {
    let valor = await execultar()
