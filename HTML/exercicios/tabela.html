@@ -1,0 +1,55 @@
+<table>
+    <capition>Produtos</capition>
+    <thead> <!-- serve para a semantica das linhas da tabela -->
+        <tr>
+            <th>Produtos</th> <!-- th é para os cabeçalhos da tabela assim como o thead-->
+            <th>preco</th>
+            <th>quantidade</th>
+            <th>total</th>
+        </tr>
+    </thead>
+    <tbody><!-- serve para a semantica das linhas da tabela -->
+        <tr>
+            <td>ipad</td>
+            <td>3289,00</td>
+            <td>5</td>
+            <td>16445,00</td>
+        </tr>
+        <tr>
+            <td>sansung S9</td>
+            <td>2649,00</td>
+            <td>8</td>
+            <td>21192,00</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total</td> <!-- colspan faz com que o campo total ocupe 3 colunas da tabela -->
+            <td>37637,00</td>
+        </tr>
+        
+    </tfoot>
+</table>
+
+<style>
+    table {
+        border-collapse: collapse; /* Aqui ele tira todas as bordas da tabela */
+    }
+    th, td {
+        padding: 10px;
+    }
+
+    thead tr {
+        border-bottom: solid 3px #444;
+    }
+
+    tbody tr:hover {
+        background-color: #dedede;
+    }
+
+    tfoot {
+        background-color: #444;
+        color: #fff;
+        font-weight: bold;
+    }
+</style>
