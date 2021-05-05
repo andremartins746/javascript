@@ -6,7 +6,13 @@ app.use(bodyParse.urlencoded({ extended: true})) // o body-parser server para qu
 
 app.post('/usuarios', (req, res) => {
     console.log(req.body)
-    res.send('<h1>parabens!</h1>')
+    res.send('<h1>parabens! usuario incluido</h1>')
+})
+
+app.post('/usuarios/:id', (req, res) => {
+    console.log(req.params.id)
+    console.log(req.body)
+    res.send('<h1>parabens! usuario alterado</h1>')
 })
 
 app.listen(3003)
