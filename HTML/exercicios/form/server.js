@@ -9,4 +9,4 @@ app.post('/usuarios', (req, res) => {
     res.send('<h1>parabens!</h1>')
 })
 
-app.listen(3006)
+app.listen(3003)
