@@ -30,6 +30,7 @@
 </style>
 
 <script>
+    // criando uma barra de progreção de video ou de dowload
     function configurarVideo(id) {
         const video = document.getElementById(id)
         video.oncontextmenu = () => false
@@ -43,8 +44,7 @@
 
             valorDiv.style.width = `${percentual}%`
             valorDiv.innerHTML = `${percentual.toFixed(1)}%`
-
-        }, 500)
+        }, 100)
     }
 
     configurarVideo('meuVideo')
