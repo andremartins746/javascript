@@ -1,5 +1,5 @@
 const porta = 3003
-const express = require('express')
+const express = require('express')// exportando o express
 const bodyParser = require('body-parser') // serve para tranformar os dados fazendo um parser
 const app = express()
 const bancoDeDados = require('./banco_de_dados')

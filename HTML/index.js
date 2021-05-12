@@ -1,6 +1,6 @@
 function atribult(value) {
     if(value === 1){
-        return new Promise((resolve, reject) => {
+        return new Promise((resolve, reject) => { // resolve e reject
             setTimeout(() => {
             return resolve('ola mundo')
             },5000)
