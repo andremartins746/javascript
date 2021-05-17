@@ -6,6 +6,31 @@
     <title>Especificidade CSS</title>
     <style>
         /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+
+        /*
+            Em linhas gerais: ...
+
+            1. regras com !important
+            2. selectores mais especificos
+            3. último regra processada (empate)
+
+        */
+
+        p {
+            background-color: #aaa;
+        }
+
+        .observacao { /* a classe é mais forte que a tag p por conta disso ela irá se aderir a classe*/
+            background-color: #5f5 ;
+            border: dashed 5px;
+            padding: 200px !important; /* o !important ta prioridade para os atribultos, burlando a ordem da especificidade*/
+            font-size: 40px;
+        }
+        p.observacao { /* esse com o p.observacao prevalece pq ele eh mais forte do que os anteriores*/
+            padding: 2px;
+            background: linear-gradient(to right, red, yellow); /* MUITO IMPORTANTE ESTUDAR ISSO!!!!*/
+        }
+
     </style>
 </head>
 
