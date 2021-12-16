@@ -6,7 +6,8 @@ function real(partes, ...valores) {
     })
     return resultado.join('')
 }
-
+//atribuições das variaveis
 const preco = 29.99
 const precoParcela = 11.9
+//exibindo no console
 console.log(real `1x de ${preco} ou 3x de ${precoParcela}.`)
